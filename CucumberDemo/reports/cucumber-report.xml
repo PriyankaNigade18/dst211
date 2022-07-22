@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.910863">
+    <testcase classname="Orangehrm application login feature" name="Test Login of orangehrm application" time="23.910863">
+        <system-out><![CDATA[Given Open Orangehrm application in chrome..................................passed
+When User enters valid username & valid Password............................passed
+When User click on Login button.............................................passed
+Then User should be able to login...........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

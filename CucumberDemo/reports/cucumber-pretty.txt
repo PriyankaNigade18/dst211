@@ -1,0 +1,7 @@
+Feature: Orangehrm application login feature
+
+  Scenario: Test Login of orangehrm application      [90m# Orangehrm.feature:3[0m
+    [32mGiven [0m[32mOpen Orangehrm application in chrome[0m       [90m# OrangehrmTest.open_Orangehrm_application_in_chrome()[0m
+    [32mWhen [0m[32mUser enters valid username & valid Password[0m [90m# OrangehrmTest.user_enters_valid_username_valid_Password()[0m
+    [32mWhen [0m[32mUser click on Login button[0m                  [90m# OrangehrmTest.user_click_on_Login_button()[0m
+    [32mThen [0m[32mUser should be able to login[0m                [90m# OrangehrmTest.user_should_be_able_to_login()[0m

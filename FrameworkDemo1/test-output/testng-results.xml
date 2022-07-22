@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Settin up configuration and Test Data]]>
+    </line>
+    <line>
+      <![CDATA[Setting done!]]>
+    </line>
+    <line>
+      <![CDATA[Browser and Application started]]>
+    </line>
+    <line>
+      <![CDATA[Browser close]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-01-07T15:37:49 IST" name="Default suite" finished-at="2022-01-07T15:38:09 IST" duration-ms="20089">
+    <groups>
+    </groups>
+    <test started-at="2022-01-07T15:37:49 IST" name="Default test" finished-at="2022-01-07T15:38:09 IST" duration-ms="20089">
+      <class name="com.Orhrm.TestCases.LoginPageTest">
+        <test-method is-config="true" signature="configsetup()[pri:0, instance:com.Orhrm.TestCases.LoginPageTest@248e319b]" started-at="2022-01-07T15:37:47 IST" name="configsetup" finished-at="2022-01-07T15:37:49 IST" duration-ms="2091" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Settin up configuration and Test Data]]>
+            </line>
+            <line>
+              <![CDATA[Setting done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configsetup -->
+        <test-method is-config="true" signature="startup()[pri:0, instance:com.Orhrm.TestCases.LoginPageTest@248e319b]" started-at="2022-01-07T15:37:49 IST" name="startup" finished-at="2022-01-07T15:38:01 IST" duration-ms="11843" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser and Application started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.Orhrm.TestCases.LoginPageTest@248e319b]" started-at="2022-01-07T15:38:01 IST" name="verifyLogin" finished-at="2022-01-07T15:38:08 IST" duration-ms="7305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Orhrm.TestCases.LoginPageTest@248e319b]" started-at="2022-01-07T15:38:08 IST" name="teardown" finished-at="2022-01-07T15:38:09 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reports()[pri:0, instance:com.Orhrm.TestCases.LoginPageTest@248e319b]" started-at="2022-01-07T15:38:09 IST" name="reports" finished-at="2022-01-07T15:38:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports -->
+      </class> <!-- com.Orhrm.TestCases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

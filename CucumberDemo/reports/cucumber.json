@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Test Login of orangehrm application",
+        "description": "",
+        "id": "orangehrm-application-login-feature;test-login-of-orangehrm-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15978475600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Orangehrm application in chrome",
+            "match": {
+              "location": "OrangehrmTest.open_Orangehrm_application_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 823105299,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters valid username \u0026 valid Password",
+            "match": {
+              "location": "OrangehrmTest.user_enters_valid_username_valid_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7080600899,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Login button",
+            "match": {
+              "location": "OrangehrmTest.user_click_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28680900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to login",
+            "match": {
+              "location": "OrangehrmTest.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Orangehrm application login feature",
+    "description": "",
+    "id": "orangehrm-application-login-feature",
+    "keyword": "Feature",
+    "uri": "Orangehrm.feature"
+  }
+]
